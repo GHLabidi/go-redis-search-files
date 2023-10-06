@@ -117,9 +117,9 @@ The goal is to eventually turn this into a distributed system that can be used t
    - Option 1:
         - Run `go run main.go` in the root directory
     - Option 2:
-        1. Run `go build` in the root directory
-        2. Run `./go-redis-search-files`
-        3. Example: `./go-redis-search-files`
+        1. Run `go build -o app` in the root directory
+        2. Run `./app`
+
 
 ## Known Issues
 ### Handling multiple concurrent requests
